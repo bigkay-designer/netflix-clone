@@ -1,0 +1,6 @@
+api key: 1b42a497d764c8260a3d252abcfc31b2
+api linkhttps://api.themoviedb.org/3/movie/550?api_key=1b42a497d764c8260a3d252abcfc31b2
+
+
+tools
+------axios

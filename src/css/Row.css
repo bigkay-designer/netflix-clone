@@ -1,0 +1,65 @@
+.row {
+  margin-left: 20px;
+}
+
+.row__posters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row h3 {
+  color: #fff;
+}
+
+.row__post__img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 450ms;
+  transition: -webkit-transform 450ms;
+  transition: transform 450ms;
+  transition: transform 450ms, -webkit-transform 450ms;
+}
+
+.row__post__img:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  opacity: 1;
+}
+
+.row__post__img--large {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  max-height: 250px;
+  margin-right: 10px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 450ms;
+  transition: -webkit-transform 450ms;
+  transition: transform 450ms;
+  transition: transform 450ms, -webkit-transform 450ms;
+}
+
+.row__post__img--large:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+  opacity: 1;
+}
+/*# sourceMappingURL=Row.css.map */
